@@ -1,0 +1,71 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #222831;
+   color: #EEEEEE;
+   box-sizing: border-box;
+   height: 100vh;
+   padding: 5%;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.container__titulo {
+   font-family: 'Abel', sans-serif;
+   font-size: 50px;
+   color: #00ADB5;
+}
+
+.container__texto {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+}
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.formulario__input {
+   width: 45%;
+   padding: 5px;
+   text-align: center;
+}
+
+.formulario__btnGetTrivia {
+   margin: 5% 0% 0% 0%;
+   background-color: #00ADB5;
+   color: #EEEEEE;
+   padding: 10px 20px;
+   text-align: center;
+   font-size: 16px;
+   border: none;
+   border-radius: 10px;
+}
+
+.formulario__btnGetTrivia:hover {
+   box-shadow: 5px 5px #393E46;
+}
+
+.container__trivia {
+   display: none;
+   margin: 10px 0px 0px 0px;
+   padding: 12px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   border: 2px solid #00ADB5;
+   border-radius: 16px;
+}
