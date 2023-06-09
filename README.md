@@ -1,3 +1,3 @@
-# trivia-numerica
+# Trivia Numérica
 
-Projeto simples consumindo a api Number API
+Projeto báscio para a praticar o consumo de APIs com JavaScript
